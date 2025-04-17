@@ -58,6 +58,9 @@ While the **DISTAR** method promoted direct instruction:
   Allows young readers to consume content across different forms of media.
 
 ---
+## 📄 Type Specimen
+
+![Type Specimen](Sample/Specimen.png)
 
 ## 📄 Sample
 
