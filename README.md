@@ -62,14 +62,14 @@ While the **DISTAR** method promoted direct instruction:
 
 ![Type Specimen](Sample/Specimen.png)
 
-## 📄 Sample and Usage
+## 📘 Example Usage
 
-### 📄 Webfonts
+### 🌐 Webfonts
 Webfonts are available within woff2 and woff formats, refer to [webfont usage](web-fonts/usage.md) for instructions on use.
 
 A [Live example of webfonts](https://dmboyd.github.io/Reading-Guide/) is available which demonstrates the fallback to base css, and provides an example implementation of utilizing subscript to represent silent letters.
 
-### 📄 Print Fonts
+### 🖨️ Print Fonts
 A sample storybook using the Reading-Guide font is available:
 
 📘 [The Tale of Peter Rabbit – Beatrix Potter](Sample/Peter_Rabbit.pdf) (Public Domain)
