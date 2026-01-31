@@ -60,13 +60,19 @@ body {
 </html>
 ```
 
-## Testing Locally
+## Example
+
+See the live [example](https://dmboyd.github.io/Reading-Guide/)
+
+To run the example site locally from within docs:
 
 ```bash
 # From the web-example directory
 python3 -m http.server 8000
 # Open http://localhost:8000
 ```
+
+
 
 ## Performance Tips
 

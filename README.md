@@ -1,6 +1,6 @@
 # Reading-Guide Font
 
-- Alpha Release 0.1
+- Alpha Release 0.2
 
 **A modern instructional typeface for early readers.**
 
