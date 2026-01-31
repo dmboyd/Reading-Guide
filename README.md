@@ -20,7 +20,7 @@ Reading-Guide is a custom font designed to support early literacy, drawing inspi
   Will include **Bold**, **Regular** **Century Schoolbook** variants to accommodate various reading levels and print media.
 
 - **Flexible usage**  
-  Designed for both screen and print, this font is ideal for educators, caregivers, and curriculum developers.
+  Designed for web, screen and print, this font is ideal for educators, caregivers, and curriculum developers.
 
 ---
 
@@ -62,8 +62,14 @@ While the **DISTAR** method promoted direct instruction:
 
 ![Type Specimen](Sample/Specimen.png)
 
-## 📄 Sample
+## 📄 Sample and Usage
 
+### 📄 Webfonts
+Webfonts are available within woff2 and woff formats, refer to [webfont usage](web-fonts/usage.md) for instructions on use.
+
+A [Live example of webfonts](https://dmboyd.github.io/Reading-Guide/) is available which demonstrates the fallback to base css, and provides an example implementation of utilizing subscript to represent silent letters.
+
+### 📄 Print Fonts
 A sample storybook using the Reading-Guide font is available:
 
 📘 [The Tale of Peter Rabbit – Beatrix Potter](Sample/Peter_Rabbit.pdf) (Public Domain)
