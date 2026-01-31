@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading Guide Font Demo</title>
+  <link rel="preload"
+        href="./ReadingGuide-Regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossorigin>
+  <style>
+    @font-face {
+      font-family: "ReadingGuide";
+      src:
+        url("./ReadingGuide-Regular.woff2") format("woff2"),
+        url("./ReadingGuide-Regular.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "ReadingGuide", Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      line-height: 1.8;
+      max-width: 42em;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      color: #222;
+      background: #fdfcfa;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #444;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+    }
+
+    .sample-box {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reading Guide Font - Webfont Example</h1>
+  <p class="subtitle">A modern instructional typeface for early readers</p>
+
+  <p>Reading Guide is designed to support early literacy by reinforcing letter-sound correspondence. By aligning to regular letter forms, it helps young readers connect phonemes to visual forms.</p>
+
+  <h2>Sample Reading Passage</h2>
+  <div class="sample-box">
+    <p>The little fish swam through the shallow water. They were searching for shells and shiny things on the shore.</p>
+    <p>"What shall we do when the whale comes?" whispered the smallest fish.</p>
+    <p>"We shall hide where the thick weeds grow," said the other two.</p>
+  </div>
+
+  <footer>
+    <p><a href="https://github.com/dmboyd/Reading-Guide">View on GitHub</a></p>
+  </footer>
+</body>
+</html>

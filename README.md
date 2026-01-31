@@ -72,7 +72,7 @@ This beloved classic has been re-typeset using the Reading-Guide font to showcas
 ## 🚧 TODO
 
 - [ ] Finalize glyph set for all phonemes and font weights
-- [ ] Publish as a webfont with CSS fallback
+- [x] Publish as a webfont with CSS fallback
 - [ ] Release workflow for prosody / phoneme mapping to graphemes
 - [ ] Address phonemic variants by local accent
 - [ ] Develop teacher resource kit
