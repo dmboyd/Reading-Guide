@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "ReadingGuide";
+  src:
+    url("./ReadingGuide-Regular.woff2") format("woff2"),
+    url("./ReadingGuide-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  font-family: "ReadingGuide", Georgia, "Times New Roman", serif;
+}
+
+sub {
+  vertical-align: baseline;
+  font-size: 0.75em;
+  line-height: 1;
+}
